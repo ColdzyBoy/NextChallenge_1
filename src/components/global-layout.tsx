@@ -3,7 +3,6 @@ import Link from "next/link";
 import style from "./global-layout.module.css";
 
 export default function GlobalLayout({ children }: { children: ReactNode }) {
-  console.log(children);
   return (
     <div className={style.container}>
       <header className={style.header}>
